@@ -12,6 +12,8 @@ Snippers
 rafce : Function 
 
 
+json-server: npm run server
+
 ***
 
 
