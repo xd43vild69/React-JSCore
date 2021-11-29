@@ -1,16 +1,16 @@
-# React App 
+# React App :sunglasses:
 
 npx create-react-app my-app
-cd my-app
-npm start
 
+cd my-app
+
+npm start
 
 *** 
 
 Snippers
 
 rafce : Function 
-
 
 json-server: npm run server
 
