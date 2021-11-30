@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Button from "./components/Button";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask"
+import Modal from "./components/Modal";
+import ModalBackdrop from "./components/ModalBackdrop";
 import "./App.css";
 
 function App() {
@@ -58,6 +60,8 @@ function App() {
         {/* <Tasks tasks={tasks}></Tasks> */}
         <AddTask onAdd={addTask} />
         <Tasks tasks={tasks} onDelete={deleteTask} />
+        <Modal></Modal>        
+        <ModalBackdrop/>        
       </header>
     </div>
   );
