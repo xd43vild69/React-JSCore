@@ -17,6 +17,12 @@
       "day": "2021-12-30",
       "reminder": true,
       "id": 5
+    },
+    {
+      "text": "T1",
+      "day": "2021-12-31",
+      "reminder": false,
+      "id": 6
     }
   ]
 }
