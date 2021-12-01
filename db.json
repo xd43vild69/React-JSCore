@@ -1,8 +1,8 @@
 {
   "tasks": [
     {
-      "text": "task1",
-      "day": "date1",
+      "text": "Task 1",
+      "day": "2021-12-31",
       "reminder": true,
       "id": 1
     }
