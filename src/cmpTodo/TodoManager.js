@@ -47,7 +47,7 @@ const TodoManager = () => {
 
   return (
     <div className="div1">
-      <AddTask onAdd={addTask} />
+      {/* <AddTask onAdd={addTask} /> */}
       <Tasks tasks={tasks} onDelete={deleteTask} />
     </div>
   );

@@ -7,7 +7,7 @@ import TodoManager from "./cmpTodo/TodoManager";
 import "./App.css";
 
 function App() {
-  const [modalIsOpen, setModalIsOpen] = useState(false);  
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   function OpenModalHandler() {
     setModalIsOpen(true);
@@ -24,13 +24,15 @@ function App() {
           <Header title="Title xD13" />
           <Button name="BtnName13" length="3"></Button>
         </div>
+
         <div className="div1">
-          <TodoManager/>
-        </div>
-        <div className="div1">
-          <button onClick={OpenModalHandler}>OpenModal</button>
+          <button onClick={OpenModalHandler}>Create Task</button>
           {modalIsOpen && <Modal onClick={CloseModalHandler} />}
           {modalIsOpen && <ModalBackdrop onClick={CloseModalHandler} />}
+        </div>
+
+        <div className="div1">
+          <TodoManager />
         </div>
       </header>
     </div>
