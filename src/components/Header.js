@@ -1,14 +1,14 @@
 const Header = (props) => {
     return (
         <header>
-            <h1>My New App: {props.title} named : {props.name}</h1>
+            <h1>{props.title} version : {props.version}</h1>
         </header>
     )
 }
 
 Header.defaultProps = {
-    title: 'title X',
-    name: 'My name'
+    title: 'Title D13',
+    version: 'V.0'
 }
 
 export default Header

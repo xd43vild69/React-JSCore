@@ -1,22 +1,22 @@
 import React from 'react'
-import Arrays from '../baselib/Arrays';
 
-function event1(){
+function ExternalFn(){
     console.log(`event1: ${Date.now()}) `);
 }
 
 const Modal = (props) => {
-    const xxx = {name:"n1", age:"age1"}
+    const todoCofirmation = {name:"server1", run1:"runProcess"}
 
-    function event2(){
-        console.log([xxx]);
+    function runServerConfirm(){
+        console.log([todoCofirmation]);
+        ExternalFn();
     }
 
     return (
         <div className="modal">
-            <button className="btn btn--alt" onClick={event2} >Confirm</button>
+            <button className="btn btn--alt" onClick={runServerConfirm} >Confirm</button>
             <button className="btn btn--alt" onClick={props.onClick} >Cancel</button>
-            <Arrays></Arrays>
+            <progress></progress>
         </div>
     )
 }

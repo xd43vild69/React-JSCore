@@ -53,26 +53,30 @@ function App() {
       : alert("Error Deleting This Task");
   };
 
-  function OpenModalHandler(){
+  function OpenModalHandler() {
     setModalIsOpen(true);
   }
 
-  function CloseModalHandler(){
+  function CloseModalHandler() {
     setModalIsOpen(false);
   }
 
   return (
     <div className="App">
       <header className="App-header">
-        <Header title="title13" />
-        <Button name="Boton1" lastname="Gomez"></Button>
-        {/* <Tasks tasks={tasks}></Tasks> */}
-        <AddTask onAdd={addTask} />
-        <Tasks tasks={tasks} onDelete={deleteTask} />
-        <button onClick={OpenModalHandler}>OpenModal</button>
-        {modalIsOpen && <Modal onClick={CloseModalHandler} />}
-        {modalIsOpen && <ModalBackdrop onClick={CloseModalHandler} />}
-        <progress></progress>
+        <div className="div1">
+          <Header title="Title xD13" />
+          <Button name="BtnName13" length="3"></Button>
+        </div>
+        <div className="div1">
+          <AddTask onAdd={addTask} />
+          <Tasks tasks={tasks} onDelete={deleteTask} />
+        </div>
+        <div className="div1">
+          <button onClick={OpenModalHandler}>OpenModal</button>
+          {modalIsOpen && <Modal onClick={CloseModalHandler} />}
+          {modalIsOpen && <ModalBackdrop onClick={CloseModalHandler} />}
+        </div>
       </header>
     </div>
   );
