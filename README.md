@@ -10,7 +10,7 @@ npm start
 
 Snippers
 
-rafce : Function 
+rafce : const ReactCompoenentName = () => {  
 
 json-server: npm run server
 
