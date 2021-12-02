@@ -24,7 +24,7 @@ code {
   z-index: 50;
 }
 
-.modal {
+/* .modal {
   position: fixed;
   top: 30vh;
   left: calc(50% - 15rem);
@@ -44,10 +44,10 @@ code {
   border-radius: 8px;
   cursor: pointer;
   margin-left: 30px;
-}
+} */
 
 /* create new blog form */
-.create {
+/* .create {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
@@ -77,4 +77,4 @@ code {
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
-}
+} */

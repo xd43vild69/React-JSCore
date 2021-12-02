@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Button from "react-bootstrap/Button";
 
 const TaskAdd = ({ onAdd }) => {
   const [text, setText] = useState("");
@@ -15,15 +16,16 @@ const TaskAdd = ({ onAdd }) => {
       return;
     }
 
-    onAdd({ text, day, reminder });
+    onAdd({ text, day, reminder, category });
 
     setText("");
     setDay("");
+    setCategory("");
     setReminder(false);
   };
 
   return (
-    <div className="create">
+    <div>
       <h2>Task Add</h2>
       <form className="add-form" onSubmit={onSubmit}>
         <div>
@@ -67,8 +69,9 @@ const TaskAdd = ({ onAdd }) => {
             <option value="c3">c3</option>
           </select>
         </div>
-
-        <input type="submit" value="Save Task" className="btn btn-block" />
+        <div className="d-grid gap-2">
+        <Button variant="primary" type="submit">Add Task</Button>
+        </div>
       </form>
     </div>
   );

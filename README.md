@@ -16,6 +16,8 @@ json-server: npm run server
 
 ***
 
+yarn add bootstrap react-bootstrap
+
 
 *** 
 # Getting Started with Create React App

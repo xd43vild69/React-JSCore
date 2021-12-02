@@ -30,9 +30,10 @@ const Modal = (props) => {
 
     return (
         <div className="modal">
-            <TaskAdd onAdd={addTask}/>
-            <button className="btn btn-block" onClick={runServerConfirm} >Confirm</button>
-            <button className="btn btn-block" onClick={props.onClick} >Cancel</button>
+            {/* <TaskAdd onAdd={addTask}/> */}
+            xxxx
+            {/* <button className="btn btn-block" onClick={runServerConfirm} >Confirm</button>
+            <button className="btn btn-block" onClick={props.onClick} >Cancel</button> */}
             {/* <progress></progress> */}
         </div>
     )

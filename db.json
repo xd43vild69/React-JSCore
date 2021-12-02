@@ -1,28 +1,25 @@
 {
   "tasks": [
     {
-      "text": "New Todo1",
-      "day": "",
+      "text": "TTT666",
+      "day": "2021-12-23",
       "reminder": false,
-      "id": 3
+      "category": "",
+      "id": 12
     },
     {
-      "text": "N1",
+      "text": "yrytryrtyr",
       "day": "2021-12-30",
       "reminder": false,
-      "id": 4
+      "category": "",
+      "id": 13
     },
     {
-      "text": "NewTask1",
-      "day": "2021-12-30",
-      "reminder": true,
-      "id": 5
-    },
-    {
-      "text": "T1",
-      "day": "2021-12-31",
+      "text": "lkdalkjdsklj",
+      "day": "2021-12-13",
       "reminder": false,
-      "id": 6
+      "category": "",
+      "id": 14
     }
   ]
 }

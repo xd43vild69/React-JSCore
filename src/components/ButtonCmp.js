@@ -1,6 +1,7 @@
 import React from "react";
+import Button from 'react-bootstrap/Button'
 
-const Button = ({name, length}) => {
+const ButtonCmp = ({name, length}) => {
   
   function FechMethodAPI(){
     const url = `https://pokeapi.co/api/v2/pokemon`;
@@ -21,8 +22,8 @@ const Button = ({name, length}) => {
 
     FechMethodAPI();
   };
-
-  return <button onClick={onClick} className="btn">{name}</button>;
+  
+  return <Button onClick={onClick}>{name}</Button>;
 };
 
-export default Button;
+export default ButtonCmp;
